@@ -1,0 +1,4 @@
+#!/usr/bin/python3
+i = 'b'
+i = chr(ord(i) - 32)
+print(upper)
