@@ -5,4 +5,4 @@ for a in range(0, 10):
             continue
         else:
             if (a == 8): print("89")
-            else: print(f"{a}{b}", end=", ")
+            else: print("{}{}".format(a, b), end=", ")
