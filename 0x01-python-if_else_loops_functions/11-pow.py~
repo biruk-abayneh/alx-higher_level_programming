@@ -1,0 +1,6 @@
+#!/usr/bin/python3
+def pow(a, b):
+    p = a
+    for _ in range(0, (b - 1)):
+        p = p * a
+    return p
