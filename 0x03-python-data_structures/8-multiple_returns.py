@@ -3,7 +3,6 @@ def multiple_returns(sentence):
     if len(sentence) == 0:
         return (0, None)
     else:
-        l = len(sentence)
+        x = len(sentence)
         f = sentence[0]
-        return (l, f)
-
+        return (x, f)
