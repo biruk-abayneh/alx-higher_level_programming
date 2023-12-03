@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+def delete_at(my_list=[], idx=0):
+    if len(my_list) < 0:
+        return my_list
+    if idx > (len(my_list) - 1):
+        return my_list
+    count = 0
+    for i in my_list:
+        count += 1
+        if (count - 1) == idx:
+            continue
+        else:
+            my_list.remove(i)
+    return my_list
